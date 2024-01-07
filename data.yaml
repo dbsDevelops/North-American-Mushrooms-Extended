@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 2
+names: ['CoW', 'chanterelle']
+
+roboflow:
+  workspace: north-american-mushrooms-dataset
+  project: north-american-mushrooms-dataset-jp3hs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/north-american-mushrooms-dataset/north-american-mushrooms-dataset-jp3hs/dataset/1
